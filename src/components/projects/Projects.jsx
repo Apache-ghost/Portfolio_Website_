@@ -84,7 +84,8 @@
 // export default Projects
 
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree, projectFour, projectFive, projectSix, projectSeven, projectEight, projectNine, projectTen, projectEleven, projectTwelves } from "../../assets/index";
+import { projectOne, projectTwo, projectThree, projectFour, projectFive, projectSix, projectSeven, projectEight, 
+  projectNine, projectTen, projectEleven, projectTwelves, projectFifteen, projectFourteen, projectThirteen } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -171,6 +172,26 @@ const Projects = () => {
           des="Find your dream property with ease using our Search Properties App. Explore a variety of listings, filter options, and discover the perfect place to call home."
           src={projectOne}
           githubUrl="https://github.com/Apache-ghost/Rental_properties"
+        />
+           <ProjectsCard
+          title="Nerala"
+          des="A vibrant platform dedicated to promoting and offering courses in local languages. Discover exclusive promotions, special offers, and engaging content to enhance your language learning journey with Nerala"
+          src={projectThirteen}
+          githubUrl="
+
+https://github.com/Apache-ghost/Nerala"
+        />
+           <ProjectsCard
+          title="Restaurant"
+          des="An inviting restaurant website showcasing our diverse menu, cozy ambiance, and exceptional dining experience. Explore mouth-watering dishes, make reservations, and stay updated on special events and promotions."
+          src={projectFourteen}
+          githubUrl="https://github.com/Apache-ghost/Restaurant_material_ui"
+        />
+           <ProjectsCard
+          title="Music app"
+          des="A sleek and intuitive music application that allows users to explore, stream, and organize their favorite songs and playlists effortlessly. With a modern design and user-friendly interface, this app offers features such as personalized recommendations"
+          src={projectFifteen}
+          githubUrl="https://github.com/Apache-ghost/Music_app"
         />
       
        
