@@ -71,6 +71,9 @@ const LeftBanner = () => {
           </div>
         </div>
       </div>
+      <a href="#projects" className="mt-4 inline-block bg-pink-600 text-white py-1 px-3 rounded transition-transform transform hover:scale-105">
+    View My Work
+  </a>
     </div>
   );
 }
