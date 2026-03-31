@@ -85,7 +85,9 @@
 
 import Title from '../layouts/Title'
 import { projectOne, projectTwo, projectThree, projectFour, projectFive, projectSix, projectSeven, projectEight, 
-  projectNine, projectTen,gittranslate projectEleven, projectTwelves, projectFifteen, projectFourteen, projectThirteen } from "../../assets/index";
+  projectNine, projectTen, projectEleven, projectTwelves, projectFifteen, projectFourteen, projectThirteen,
+  chat, translate, fitness, git1, reportgit, admission, car, distrubuted, energy, events, promtopia, 
+  logo1, suma, review, plant,school, olembe, facebook, maisonbio, llama, idcard, internship } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -193,6 +195,138 @@ https://github.com/Apache-ghost/Nerala"
           src={projectFifteen}
           githubUrl="https://github.com/Apache-ghost/Music_app"
         />
+         <ProjectsCard
+          title="chat app"
+          des="A chat application built with llama locally for seamless communication. Experience real-time messaging, and a user-friendly interface for effortless conversations."
+          src={llama}
+          githubUrl="https://github.com/Apache-ghost/ChatApp_Ollama_model"
+        />
+        <ProjectsCard
+          title="transaltion app"
+          des="A translation app transating directly from firebase in case the word is been found and word not found request the model to translate it."
+          src={translate}
+          githubUrl="https://github.com/Apache-ghost/Translation_App"
+        />
+       
+        <ProjectsCard
+          title="Fitness App"
+          des="A fitness app designed to help users track their workouts."
+          src={fitness}
+          githubUrl="https://github.com/Apache-ghost/Physical_Fitness_Application"
+        />
+        <ProjectsCard
+          title="Admin blog"
+          des="A simple admin blog built with PHP and MySQL. This project allows users to create, edit, and delete blog posts through a user-friendly interface."
+          src={git1}
+          githubUrl="https://github.com/Apache-ghost/Blog_php_Admin"
+        />
+        <ProjectsCard
+          title="health web app"
+          des="A health app where we can tract patient recording and diagnotics ."
+          src={reportgit}
+          githubUrl="https://github.com/Apache-ghost/Health_Web_App"
+        />
+        <ProjectsCard
+          title="Admission system stimulation"
+          des="An admission system simulation designed to mimic the process of managing and processing student applications for educational institutions."
+          src={admission}
+          githubUrl="https://github.com/Apache-ghost/Admission_System-"
+        />
+        <ProjectsCard
+          title="Car e-commerce"
+          des="A car e-commerce platform designed to facilitate the buying and selling of vehicles online."
+          src={car}
+          githubUrl="https://github.com/Apache-ghost/Car_eCommerce"
+        />
+      
+        <ProjectsCard
+          title="Energy management system"
+          des="An energy management system designed to optimize energy consumption and reduce costs."
+          src={energy}
+          githubUrl="https://github.com/Apache-ghost/energy-managemeny-system"
+        />
+        <ProjectsCard
+          title="Event Management System"
+          des="An event management system designed to streamline the planning and organization of events. ."
+          src={events}
+          githubUrl="https://github.com/Apache-ghost/Online_Event_Manager"
+        />
+        <ProjectsCard
+          title="Promtopia"
+          des="A vibrant platform dedicated to learn prompt engineering."
+          src={promtopia}
+          githubUrl="https://github.com/Apache-ghost/Promptopia"
+        />
+        
+        <ProjectsCard
+          title="summaizer"
+          des="A summarizer application designed to condense and extract key information from text, providing concise summaries for improved readability and understanding."
+          src={suma}
+          githubUrl="https://github.com/Apache-ghost/Article-summarizer"
+        />
+        <ProjectsCard
+          title="Book review app"
+          des="A simple book review application where users can share their thoughts and ratings about different books."
+          src={review}
+          githubUrl="https://github.com/Apache-ghost/Book_Review"
+        />
+        <ProjectsCard
+          title="plant shop"
+          des="A simple plant shop application where users can browse and purchase various plants."
+          src={plant}
+          githubUrl="https://github.com/Apache-ghost/My-plant-shop"
+        />
+        <ProjectsCard
+          title="olembe"
+          des="A responsive web design project aimed for olembe stadium."
+          src={olembe}
+          githubUrl="https://github.com/Apache-ghost/Olembe"
+        />
+        <ProjectsCard
+          title="Facebook clone "
+          des="A Facebook clone built with React, Firebase, and Tailwind CSS. This project replicates the core features of Facebook, including only  user authentication for education purpose ."
+          src={facebook}
+          githubUrl="https://github.com/Apache-ghost/Facebook"
+        />
+        <ProjectsCard
+          title="maison bio"
+          des="A responsive web design project aimed at improving design and creativity skills."
+          src={maisonbio}
+          githubUrl="https://github.com/Apache-ghost/maisonbio-association"
+        />
+        <ProjectsCard
+          title="real time chat app"
+          des="A real-time chat application built with Appwrite, providing seamless communication and collaboration features for users."
+          src={chat}
+          githubUrl="https://github.com/Apache-ghost/ChatApp_Appwrite"
+        />
+        <ProjectsCard
+          title="Id card system"
+          des="A system designed to manage and generate identification cards for individuals, providing a secure and efficient way to create and maintain ID cards for various purposes."
+          src={idcard}
+          githubUrl="https://github.com/Apache-ghost/"
+        />
+         <ProjectsCard
+          title="school management system"
+          des="A school management system designed to streamline administrative tasks, enhance communication, and improve overall efficiency in educational institutions."
+          src={school}
+          githubUrl="https://github.com/Apache-ghost/School_admin"
+        />
+        <ProjectsCard
+          title="Mobile job finder facilitator"
+          des="A mobile application designed to connect job seekers with potential employers, providing a user-friendly platform for job searching."
+          src={internship}
+          githubUrl="https://github.com/Apache-ghost/Mobile_Job_Finder_Facilitator"
+        />
+          <ProjectsCard
+          title="Distributed system"
+          des="A distributed system designed to enable efficient communication and coordination among multiple interconnected components, providing scalability, fault tolerance, and high availability for various applications."
+          src={distrubuted}
+          githubUrl="https://github.com/Apache-ghost/distributed_system"
+        />
+
+
+
       
        
       
